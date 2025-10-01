@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <base target="_self">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolução Farroupilha - A Guerra dos Farrapos</title>
+    <meta name="description" content="Conheça a história completa da Revolução Farroupilha, a mais longa guerra civil brasileira que durou 10 anos no Rio Grande do Sul">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'gaucho-red': '#D40000',
+                        'gaucho-green': '#009639',
+                        'gaucho-yellow': '#FEDF00'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-gaucho-red rounded-full"></div>
+                    <div class="w-10 h-10 bg-gaucho-green rounded-full"></div>
+                    <div class="w-10 h-10 bg-gaucho-yellow rounded-full"></div>
+                    <h1 class="text-xl font-bold text-gray-800 ml-2">Revolução Farroupilha</h1>
+                </div>
+                
+                <div class="hidden md:flex space-x-6">
+                    <a href="#historia" class="text-gray-700 hover:text-gaucho-red font-medium transition-colors">História</a>
+                    <a href="#lideres" class="text-gray-700 hover:text-gaucho-red font-medium transition-colors">Líderes</a>
+                    <a href="#curiosidades" class="text-gray-700 hover:text-gaucho-red font-medium transition-colors">Curiosidades</a>
+                    <a href="#galeria" class="text-gray-700 hover:text-gaucho-red font-medium transition-colors">Galeria</a>
+                </div>
+                
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-gaucho-red to-gaucho-green text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Revolução Farroupilha</h1>
+            <p class="text-xl md:text-2xl mb-8">A Guerra dos Farrapos - 1835 a 1845</p>
+            <p class="text-lg max-w-2xl mx-auto">
+                A mais longa guerra civil brasileira que marcou a história do Rio Grande do Sul e definiu a identidade gaúcha
+            </p>
+        </div>
+    </section>
+
+    <!-- História -->
+    <section id="historia" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">História da Revolução</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 items-center mb-12">
+                <div>
+                    <h3 class="text-2xl font-bold text-gaucho-red mb-4">O Início do Conflito</h3>
+                    <p class="text-gray-700 mb-4">
+                        A Revolução Farroupilha começou em 20 de setembro de 1835, quando tropas rebeldes gaúchas 
+                        tomaram a cidade de Porto Alegre. O movimento foi liderado pela elite estancieira do Rio Grande do Sul.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        As principais causas foram os altos impostos sobre o charque (carne seca), a concorrência 
+                        desleal do charque platino e a insatisfação política com o governo imperial.
+                    </p>
+                </div>
+                <img 
+                    src="page.png.jpg" 
+                    alt="Paisagem dos pampas gaúchos" 
+                    class="w-full rounded-lg shadow-lg"
+                    loading="lazy"
+                />
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 items-center mb-12">
+                <img 
+                    src="30.jpg" 
+                    alt="Representação de batalha farroupilha" 
+                    class="w-full rounded-lg shadow-lg md:order-2"
+                    loading="lazy"
+                />
+                <div class="md:order-1">
+                    <h3 class="text-2xl font-bold text-gaucho-red mb-4">A Proclamação da República</h3>
+                    <p class="text-gray-700 mb-4">
+                        Em 11 de setembro de 1836, os farroupilhas proclamaram a República Rio-Grandense, 
+                        um estado independente do Império do Brasil.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        A capital foi estabelecida em Piratini, e mais tarde transferida para Caçapava, 
+                        Alegrete e São Borja.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-gray-100 p-8 rounded-lg">
+                <h3 class="text-2xl font-bold text-gaucho-green mb-4">Principais Batalhas</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <div class="bg-gaucho-red text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-horse text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Seival</h4>
+                        <p class="text-gray-700 text-sm">1836 - Vitória farroupilha decisiva</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-gaucho-green text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-flag text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Fanfa</h4>
+                        <p class="text-gray-700 text-sm">1836 - Captura de Bento Gonçalves</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-gaucho-yellow text-gray-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-handshake text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Porongos</h4>
+                        <p class="text-gray-700 text-sm">1844 - Massacre dos Lanceiros Negros</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Líderes -->
+    <section id="lideres" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Principais Líderes</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img 
+                        src="download.jfif" 
+                        alt="Bento Gonçalves da Silva" 
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gaucho-red mb-2">Bento Gonçalves</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            Primeiro presidente da República Rio-Grandense e principal líder militar farroupilha
+                        </p>
+                        <div class="flex space-x-2">
+                            <span class="bg-red-100 text-gaucho-red px-2 py-1 rounded text-xs">Presidente</span>
+                            <span class="bg-green-100 text-gaucho-green px-2 py-1 rounded text-xs">Militar</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img 
+                        src="download (1).jfif" 
+                        alt="Giuseppe Garibaldi" 
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gaucho-red mb-2">Giuseppe Garibaldi</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            Herói italiano que lutou ao lado dos farroupilhas e mais tarde unificou a Itália
+                        </p>
+                        <div class="flex space-x-2">
+                            <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">Italiano</span>
+                            <span class="bg-green-100 text-gaucho-green px-2 py-1 rounded text-xs">Marinha</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img 
+                        src="download (2).jfif" 
+                        alt="Antônio de Souza Netto" 
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gaucho-red mb-2">Antônio de Souza Netto</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            Proclamador da República Rio-Grandense e importante comandante militar
+                        </p>
+                        <div class="flex space-x-2">
+                            <span class="bg-red-100 text-gaucho-red px-2 py-1 rounded text-xs">General</span>
+                            <span class="bg-green-100 text-gaucho-green px-2 py-1 rounded text-xs">Cavalariano</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img 
+                        src="download (3).jfif" 
+                        alt="David Canabarro" 
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                    />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gaucho-red mb-2">David Canabarro</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            Um dos últimos líderes a depor armas, assinou a paz em Ponche Verde
+                        </p>
+                        <div class="flex space-x-2">
+                            <span class="bg-red-100 text-gaucho-red px-2 py-1 rounded text-xs">General</span>
+                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">Negociador</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curiosidades -->
+    <section id="curiosidades" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Curiosidades</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gaucho-red text-white p-6 rounded-lg">
+                    <div class="text-3xl mb-4">⚔️</div>
+                    <h3 class="text-xl font-bold mb-3">Duração Recorde</h3>
+                    <p class="text-sm">
+                        Com 10 anos de duração, foi a mais longa guerra civil da história do Brasil
+                    </p>
+                </div>
+
+                <div class="bg-gaucho-green text-white p-6 rounded-lg">
+                    <div class="text-3xl mb-4">🇧🇷</div>
+                    <h3 class="text-xl font-bold mb-3">República Independente</h3>
+                    <p class="text-sm">
+                        Foi proclamada a República Rio-Grandense, com bandeira, hino e governo próprios
+                    </p>
+                </div>
+
+                <div class="bg-gaucho-yellow text-gray-800 p-6 rounded-lg">
+                    <div class="text-3xl mb-4">👨‍✈️</div>
+                    <h3 class="text-xl font-bold mb-3">Garibaldi</h3>
+                    <p class="text-sm">
+                        O herói italiano lutou aqui antes de unificar a Itália
+                    </p>
+                </div>
+
+                <div class="bg-gray-800 text-white p-6 rounded-lg">
+                    <div class="text-3xl mb-4">⚓</div>
+                    <h3 class="text-xl font-bold mb-3">Marinha Farroupilha</h3>
+                    <p class="text-sm">
+                        Os rebeldes criaram uma marinha própria para controlar a Lagoa dos Patos
+                    </p>
+                </div>
+
+                <div class="bg-gray-600 text-white p-6 rounded-lg">
+                    <div class="text-3xl mb-4">📜</div>
+                    <h3 class="text-xl font-bold mb-3">Constituição</h3>
+                    <p class="text-sm">
+                        A República Rio-Grandense teve sua própria constituição em 1843
+                    </p>
+                </div>
+
+                <div class="bg-gaucho-red text-white p-6 rounded-lg">
+                    <div class="text-3xl mb-4">🤝</div>
+                    <h3 class="text-xl font-bold mb-3">Paz Honrosa</h3>
+                    <p class="text-sm">
+                        O tratado de paz garantiu anistia aos rebeldes e incorporação dos soldados ao exército imperial
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Galeria de Imagens</h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <img 
+                    src="download (4).jfif" 
+                    alt="Monumento da Revolução Farroupilha" 
+                    class="w-full h-48 object-cover rounded-lg shadow-md"
+                    loading="lazy"
+                />
+                <img 
+                    src="25.jpg" 
+                    alt="Trajes típicos gaúchos" 
+                    class="w-full h-48 object-cover rounded-lg shadow-md"
+                    loading="lazy"
+                />
+                <img 
+                    src="62.jpg" 
+                    alt="Chimarrão e tradições" 
+                    class="w-full h-48 object-cover rounded-lg shadow-md"
+                    loading="lazy"
+                />
+                <img 
+                    src="washington-dc.jpg" 
+                    alt="Cavalo crioulo" 
+                    class="w-full h-48 object-cover rounded-lg shadow-md"
+                    loading="lazy"
+                />
+                <img 
+                    src="silhueta-curta-soldado.jpg" 
+                    alt="Paisagem dos pampas" 
+                    class="w-full h-48 object-cover rounded-lg shadow-md"
+                    loading="lazy"
+                />
+                <img 
+                    src="images.jfif" 
+                    alt="Charque e culinária" 
+                    class="w-full h-48 object-cover rounded-lg shadow-md"
+                    loading="lazy"
+                />
+                <img 
+                    src="download (5).jfif" 
+                    alt="Museu farroupilha" 
+                    class="w-full h-48 object-cover rounded-lg shadow-md"
+                    loading="lazy"
+                />
+                <img 
+                    src="images (1).jfif" 
+                    alt="Bandeira rio-grandense" 
+                    class="w-full h-48 object-cover rounded-lg shadow-md"
+                    loading="lazy"
+                />
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Sobre a Revolução</h3>
+                    <p class="text-gray-300 text-sm">
+                        A Revolução Farroupilha foi um marco fundamental na formação da identidade 
+                        gaúcha e na história do Brasil Imperial.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Links Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#historia" class="text-gray-300 hover:text-white transition-colors text-sm">História Completa</a></li>
+                        <li><a href="#lideres" class="text-gray-300 hover:text-white transition-colors text-sm">Biografias</a></li>
+                        <li><a href="#curiosidades" class="text-gray-300 hover:text-white transition-colors text-sm">Curiosidades</a></li>
+                        <li><a href="#galeria" class="text-gray-300 hover:text-white transition-colors text-sm">Imagens Históricas</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contato</h3>
+                    <p class="text-gray-300 text-sm">
+                        Para mais informações sobre a história gaúcha
+                    </p>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                        <i class="fab fa-facebook text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400 text-sm">
+                    &copy; 2024 Revolução Farroupilha - Todos os direitos reservados
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navigation functionality
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        document.querySelector('button').addEventListener('click', function() {
+            const nav = document.querySelector('.hidden.md\\:flex');
+            nav.classList.toggle('hidden');
+            nav.classList.toggle('flex');
+            nav.classList.toggle('flex-col');
+            nav.classList.toggle('absolute');
+            nav.classList.toggle('top-16');
+            nav.classList.toggle('left-0');
+            nav.classList.toggle('right-0');
+            nav.classList.toggle('bg-white');
+            nav.classList.toggle('p-4');
+            nav.classList.toggle('shadow-lg');
+        });
+
+        // Data sobre a revolução
+        const revolucaoData = {
+            "inicio": "20 de setembro de 1835",
+            "fim": "1 de março de 1845",
+            "duracao": "10 anos",
+            "lideres_principais": [
+                { "nome": "Bento Gonçalves", "cargo": "Presidente da República" },
+                { "nome": "Giuseppe Garibaldi", "cargo": "Comandante da Marinha" },
+                { "nome": "Antônio de Souza Netto", "cargo": "General" },
+                { "nome": "David Canabarro", "cargo": "General" }
+            ],
+            "batalhas_importantes": [
+                "Batalha do Seival",
+                "Batalha do Fanfa",
+                "Batalha dos Porongos"
+            ]
+        };
+    </script>
+</body>
+</html>
